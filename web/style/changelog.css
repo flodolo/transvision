@@ -2,16 +2,16 @@
 
 @font-face {
     font-family: 'Fira Mono';
+    font-style: normal;
+    font-weight: normal;
     src: url(/fonts/FiraMono/FiraMono-Regular.woff2) format('woff2'),
          url(/fonts/FiraMono/FiraMono-Regular.woff) format('woff');
-    font-weight: normal;
-    font-style: normal;
 }
 
 #changelog #pagecontent {
     margin: 30px auto;
-    width: 80%;
     max-width: 1014px;
+    width: 80%;
 }
 
 #changelog #pagecontent ul {
@@ -36,8 +36,8 @@
 }
 
 #changelog h3 {
-    padding: 10px 0 5px;
     margin: 0;
+    padding: 10px 0 5px;
 }
 
 #changelog .page_description {
@@ -45,11 +45,11 @@
 }
 
 .github_link {
-    padding-left: 30px;
-    display: block;
-    height: 28px;
     background: url(/img/github.svg) top left no-repeat transparent;
     background-size: 24px;
+    display: block;
+    height: 28px;
+    padding-left: 30px;
     padding-top: 3px;
 }
 
@@ -68,9 +68,9 @@
 }
 
 .release_number {
+    border-bottom: none;
     margin: 60px auto 0;
     padding: 0 0 5px;
-    border-bottom: none;
 }
 
 .release_number:nth-of-type(1) {
@@ -82,17 +82,18 @@
 }
 
 .release_date {
-    display: block;
-    width: 80px;
     background: #30a4db;
+    border-radius: 0.25em;
     color: #fff;
+    display: block;
     font-size: 0.6em;
     margin: 4px auto;
     padding: 0.2em 0.4em;
-    border-radius: 0.25em;
+    width: 80px;
 }
 
 .release_tag {
+    border-color: #555;
     border-right: 3px solid #ccc;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05), 0 -1px 0 rgba(0, 0, 0, 0.05) inset;
     color: #333;
@@ -101,11 +102,10 @@
     font-style: normal;
     left: 0;
     line-height: 1.1;
+    margin-right:4px;
     padding: 4px 2px 4px 13px;
     text-transform: uppercase;
     width: 92px;
-    margin-right:4px;
-    border-color: #555;
 }
 
 .new_feature {
@@ -129,17 +129,17 @@
 }
 
 .regression {
-    color: #fff;
     background-color: #ff6464;
+    color: #fff;
 }
 
 code {
-    font-family: Courier, Courier New, monospace;
-    font-weight: normal;
-    color: #333;
     background-color: #fafafa;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05), 0 -1px 0 rgba(0, 0, 0, 0.05) inset;
+    color: #333;
+    font-family: Courier, Courier New, monospace;
+    font-weight: normal;
+    padding: 0.1em 0.3em;
     text-shadow: 1px 1px 0 #fff;
     white-space: nowrap;
-    padding: 0.1em 0.3em;
 }

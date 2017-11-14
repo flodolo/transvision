@@ -6,9 +6,9 @@
 }
 
 #main_search fieldset {
+    margin: 0 0 1em;
     min-height: 0;
     padding: 0;
-    margin: 0 0 1em;
 }
 
 #main_search fieldset > label {
@@ -28,8 +28,8 @@
 }
 
 #TMX_checkboxes {
-    text-align: left;
     display: block;
+    text-align: left;
 }
 
 #TMX_checkboxes p {
@@ -37,8 +37,8 @@
 }
 
 #TMX_results {
-    text-align: center;
     margin: 100px 0;
+    text-align: center;
 }
 
 #TMX_results span {
@@ -56,7 +56,7 @@
 }
 
 #download {
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    display: block;
 }

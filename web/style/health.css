@@ -1,26 +1,26 @@
 /* Rules specific for /showrepos (Health View) */
 
 #wrapper {
-    width: 80%;
     margin-left: auto;
     margin-right: auto;
+    width: 80%;
 }
 
 .metrics {
+    background: #fff;
+    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
-    background: #fff;
-    margin-bottom: 50px;
 }
 
 .metric .completion {
     color: #fff;
     font-size: 20px;
-    font-weight: bold;
     font-style: italic;
-    text-shadow: 1px 1px 2px rgba(30, 30, 30, 1);
+    font-weight: bold;
     padding: 3px 5px;
+    text-shadow: 1px 1px 2px rgba(30, 30, 30, 1);
 }
 
 .metric .no-l10n {
@@ -28,15 +28,15 @@
 }
 
 .metric.old {
-    font-weight: bold;
     color: #f00;
+    font-weight: bold;
 }
 
 .tab-content .stats-table {
     display: table-cell;
-    vertical-align: top;
-    text-align: center;
     padding: 10px 20px;
+    text-align: center;
+    vertical-align: top;
 }
 
 .stats-panel {
@@ -64,17 +64,18 @@
 
 /* Tabs */
 .tab-links {
+    background: #fbfbfb;
+    border-bottom: 1px solid #c1c1c1;
+    border-top: 1px solid #c1c1c1;
     margin: 0;
     padding: 0;
-    background: #fbfbfb;
-    border-top: 1px solid #c1c1c1;
-    border-bottom: 1px solid #c1c1c1;
     width: 100%;
 }
+
 .tab-links:after {
-    display: block;
     clear: both;
     content: '';
+    display: block;
 }
 
 .tab-links li {
@@ -83,10 +84,10 @@
 }
 
 .tab-links a {
+    color: #4c4c4c;
+    display: inline-block;
     height: 30px;
     padding: 14px 30px 7px;
-    display: inline-block;
-    color: #4c4c4c;
 }
 
 .tab-links a:hover {
@@ -96,23 +97,23 @@
 
 li.active a,
 li.active a:hover {
-    height: 26px;
     background-color: #ebebeb;
     border-bottom: 4px solid #ff9500;
+    height: 26px;
 }
 
 .tab-content {
-    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
     background: #fff;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
     text-align: left;
     vertical-align: top;
 }
 
 .tab-content table {
-    width: 40%;
     display: inline-block;
-    text-align: center;
     margin: 0;
+    text-align: center;
+    width: 40%;
 }
 
 .tab {

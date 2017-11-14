@@ -7,14 +7,14 @@
 
 #productization .product h3 {
     clear: both;
+    margin: 0 auto;
     padding-top: 36px;
     text-transform: uppercase;
-    margin: 0 auto;
 }
 
 #productization .product {
-    width: 824px;
     margin: 0 auto;
+    width: 824px;
 }
 
 #productization .product h4 {
@@ -23,18 +23,18 @@
 }
 
 #productization .channel {
-    width: 250px;
     float: left;
     padding: 0 5px 0 15px;
+    width: 250px;
 }
 
 #productization .searchplugin {
     background-color: #fafafa;
-    min-height: 90px;
-    margin-top: 6px;
     border: 1px solid #555;
     border-radius: 12px;
     font-size: 0.9em;
+    margin-top: 6px;
+    min-height: 90px;
 }
 
 #productization .searchplugin img {
@@ -44,10 +44,10 @@
 
 #productization .image {
     display: block;
-    text-align: center;
-    width: 100%;
     float: left;
     padding: 3px;
+    text-align: center;
+    width: 100%;
 }
 
 #productization .info {
@@ -76,12 +76,12 @@
 
 #productization .searchorder {
     background-color: #fafafa;
-    min-height: 90px;
-    margin-top: 6px;
-    padding-top: 10px;
     border: 1px solid #555;
     border-radius: 12px;
     font-size: 0.9em;
+    margin-top: 6px;
+    min-height: 90px;
+    padding-top: 10px;
 }
 
 #productization .searchorder p {
