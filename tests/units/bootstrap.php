@@ -9,7 +9,7 @@ define('APP_SOURCES', realpath(__DIR__ . '/../testfiles/config/sources') . '/');
 mb_internal_encoding('UTF-8');
 
 // Make sure we have a timezone set
-date_default_timezone_set('Europe/Paris');
+date_default_timezone_set('UTC');
 
 const DEBUG = true;
 const CACHE_ENABLED = true;

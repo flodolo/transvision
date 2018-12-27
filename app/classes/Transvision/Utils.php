@@ -363,6 +363,10 @@ class Utils
             return self::pluralize($interval->y, 'year') . $suffix;
         }
         if ($interval->m >= 1) {
+            print('Start date: ' . date_format($ref_time, 'Y-m-j G:i:s T') . "\n");
+            print('End date: ' . date_format($datetime, 'Y-m-j G:i:s T') . "\n");
+            print('Time difference: ' . $interval->format('%R%m months (%R%a days)') . "\n");
+
             return self::pluralize($interval->m, 'month') . $suffix;
         }
         if ($interval->d >= 1) {

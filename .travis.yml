@@ -4,12 +4,12 @@ cache:
   directories:
     - $HOME/.composer/cache/files
 php:
-  - 5.6
-  - 7.0
+#  - 5.6
+#  - 7.0
   - 7.2
 before_install:
   # Install latest version of node
-  - nvm install node
+  #- nvm install node
   # Disabling xdebug
   - phpenv config-rm xdebug.ini
 install:
@@ -18,16 +18,16 @@ install:
   - composer self-update
   - composer install $flags
   # Install ESLint
-  - npm install -g eslint
+  #- npm install -g eslint
 before_script:
   # Travis configuration
   - cp app/config/config.ini-travis app/config/config.ini
 script:
   - vendor/atoum/atoum/bin/atoum -d tests/units/ --use-light-report
-  - php tests/functional/api.php
-  - php tests/functional/pages.php
-  - vendor/bin/php-cs-fixer --diff --dry-run -v fix
-  - eslint web/js
+  #- php tests/functional/api.php
+  #- php tests/functional/pages.php
+  #- vendor/bin/php-cs-fixer --diff --dry-run -v fix
+  #- eslint web/js
 notifications:
   irc:
     channels:
