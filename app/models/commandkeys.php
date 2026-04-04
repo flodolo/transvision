@@ -46,6 +46,7 @@ if ($commandkey_results === false) {
     $ignored_ids = [
         'browser/chrome/browser/browser.properties:addonPostInstall.okay.key',
         'devtools/client/webconsole.properties:table.key',
+        'devtools/shared/webconsole.properties:table.key',
     ];
     $ignored_files = [
         'extensions/irc/chrome/chatzilla.properties',
